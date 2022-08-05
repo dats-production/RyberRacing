@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53da0ef6de4848cbbf67850a2b197e94, type: 3}
+  m_Name: AudioConfig
+  m_EditorClassIdentifier: 
+  menuMusicClip: {fileID: 8300000, guid: 693b4bfbfba21e14681f3fc36de3f548, type: 3}
+  racingMusicClip: {fileID: 8300000, guid: 86b53dda21b46df41b240c56758b1cec, type: 3}
+  menuAmbientClip: {fileID: 8300000, guid: cb49417e7bbbe2e41996a350c1d44d63, type: 3}
+  racingAmbientClip: {fileID: 8300000, guid: 5003a3f08f5236a47a8728843a4d8742, type: 3}
+  crossFadeTime: 2
+  fadeOutTime: 1
+  sfxAudioClips:
+  - Name: B1
+    SoundType: 0
+    AudioClip: {fileID: 8300000, guid: bd2096d8b02389045b53ee8bd4a71d6d, type: 3}
+  - Name: B2
+    SoundType: 0
+    AudioClip: {fileID: 8300000, guid: fea712b81a20a634aa0648c93f5f7887, type: 3}
